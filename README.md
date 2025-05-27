@@ -1,6 +1,6 @@
 #  Employee Management System
 
-A full-stack **Role-Based Employee Management System** with authentication, CRUD operations, document upload, search/filtering, pagination, reporting, and Swagger API documentation.
+A Backend **Role-Based Employee Management System** with authentication, CRUD operations, document upload, search/filtering, pagination, reporting, and Swagger API documentation.
 
 ---
 
@@ -9,7 +9,6 @@ A full-stack **Role-Based Employee Management System** with authentication, CRUD
 - **Backend**: Java (Spring Boot)
 - **Database**: PostgreSQL
 - **Authentication**: JWT (JSON Web Token)
-- **Frontend**: HTML, CSS, JavaScript (Demo Interface)
 - **API Docs**: Swagger UI
 
 ---
@@ -41,21 +40,8 @@ A full-stack **Role-Based Employee Management System** with authentication, CRUD
 ---
 
 ##  Project Structure
-management/
-├── src/
-│ ├── main/java/com/employee/management/
-│ │ ├── controller/
-│ │ ├── model/
-│ │ ├── repository/
-│ │ ├── service/
-│ │ ├── config/
-│ │ └── util/
-│ └── resources/
-│ ├── static/
-│ ├── application.properties
-│ └── templates/
-├── uploads/
-└── pom.xml
+![image](https://github.com/user-attachments/assets/9cc846c8-667f-45c2-ac72-5c0d72afae61)
+
 
 ---
 
