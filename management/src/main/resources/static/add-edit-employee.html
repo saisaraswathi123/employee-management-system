@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add/Edit Employee</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<h2>Add/Edit Employee</h2>
+<form id="empForm">
+    <input type="text" placeholder="Name" id="name" />
+    <input type="email" placeholder="Email" id="email" />
+    <input type="text" placeholder="Phone" id="phone" />
+    <input type="text" placeholder="Designation" id="designation" />
+    <input type="date" id="joiningDate" />
+    <input type="number" placeholder="Department ID" id="departmentId" />
+    <input type="number" placeholder="Role ID" id="roleId" />
+    <button type="button" onclick="saveEmployee()">Submit</button>
+</form>
+<form id="employeeForm">
+    <!-- name, email, phone etc... -->
+
+    <input type="file" id="resume" name="resume">
+    <button type="submit">Submit</button>
+</form>
+<select id="departmentId">
+    <option value="1">HR</option>
+    <option value="2">Engineering</option>
+</select>
+
+<select id="roleId">
+    <option value="1">ADMIN</option>
+    <option value="2">INTERN</option>
+</select>
+
+<script src="js/main.js"></script>
+</body>
+</html>

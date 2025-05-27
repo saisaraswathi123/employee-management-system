@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employees</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h2>Employee List</h2>
+<div id="employeeList"></div>
+
+<script>
+    fetch("/api/employee")
+        .then(response => response.json())
+        .then(data => {
+            console.log("Departments:", data);
+            // render logic here
+        })
+        .catch(error => console.error("Error fetching departments:", error));
+</script>
+
+</body>
+</html>
